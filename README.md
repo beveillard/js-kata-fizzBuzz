@@ -1,17 +1,8 @@
-# js-kata-starter
+# FizzBuzz
 
-Starter project for kata (Node, TypeScript, Jest)
+Assuming `n` is a natural integer,
 
-## Installation
-
-```text
-git clone https://github.com/mathieueveillard/js-kata-starter.git
-cd js-kata-starter
-npm install
-```
-
-## Development
-
-```text
-npm test
-```
+- If `n` is a multiple of 3, return `Fizz`
+- If `n` is a multiple of 5, return `Buzz`
+- If `n` is a multiple of 3 and 5, return `FizzBuzz`
+- Else return `n`
