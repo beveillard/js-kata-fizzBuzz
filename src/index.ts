@@ -1,13 +1,11 @@
-export function fizzBuzz(n) {
+export function fizzBuzz(n: number): string {
   let result = "";
-
   if (isMultipleOf(3, n)) result = "Fizz";
   if (isMultipleOf(5, n)) result += "Buzz";
-  if (result === "") result += n;
 
-  return result;
+  return (result === "") ? String(n) : result;
 }
 
-function isMultipleOf(x, n) {
-  return n % x == 0;
+function isMultipleOf(m: number, n: number): boolean {
+  return n % m === 0;
 }
